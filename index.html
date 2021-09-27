@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Diploma CGPA Calculator</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+</head>
+<body class="bg-dark">
+	<div class="container-fluid p-5">
+		<div class="row">
+			<div class="col-md-6 col-sm-8 mx-auto">
+				<div class="card">
+					<div class="card-header bg-success">
+						<h2 class="text-light text-center mt-2">Diploma CGPA Calculator</h2>
+						<div class="text-center text-light">[Regulation - 2010]</div>
+					</div>
+					<div class="card-body">
+						<form onsubmit="return false;">
+							<div class="row">
+								<div class="col-md-12 mb-2" id="cgpa"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa1" min="0" max="4" name="gpa1" placeholder="1st Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa2" min="0" max="4" name="gpa2" placeholder="2nd Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa3" min="0" max="4" name="gpa3" placeholder="3rd Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa4" min="0" max="4" name="gpa4" placeholder="4th Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa5" min="0" max="4" name="gpa5" placeholder="5th Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa6" min="0" max="4" name="gpa6" placeholder="6th Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa7" min="0" max="4" name="gpa7" placeholder="7th Semester CGPA" class="form-control"></div>
+								<div class="col-md-6 mb-2"><input type="text" id="gpa8" min="0" max="4" name="gpa8" placeholder="8th Semester CGPA" class="form-control"></div>
+								<div class="col-md-12"><input onclick="calcCGPA();" type="submit" value="Calculate CGPA" name="submit" class="btn btn-primary btn-block"></div>
+							</div>
+						</form>
+					</div>
+					<div class="card-footer bg-secondary">
+						<div class="text-center text-light">&copy; 2019 by Arman Arif</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/app.js"></script>
+</body>
+</html>
